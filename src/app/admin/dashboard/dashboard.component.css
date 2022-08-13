@@ -3,15 +3,16 @@
     background: rgb(0 0 0 / 34%);border-radius: 5px;}
 
 .dv-mainapp img {width: 100%}
-.dv-msg {border-radius: 5px; background: #ffffff;height: auto;color: #e91e63;text-align: center;}
+.dv-msg {    font-size: 20px;
+    font-weight: bold;border-radius: 5px; background: #ffffff;height: auto;color: #e91e63;text-align: center;}
 .dv-msg p {margin-top: 30px; padding-left: 150px; padding-right: 150px;}
 .dv-hari1 {padding-top: 30px;padding-bottom: 30px;height: auto;text-align: center;}
 .dv-hari2 {border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 30px;padding-right: 15px;background: rgb(0 0 0 / 47%);height: auto;color: white;}
-.dv-guru1 {border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 60px;background: rgb(0 0 0 / 47%);height: auto;color: white;}
+.dv-guru1 {border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 30px;background: rgb(0 0 0 / 47%);height: auto;color: white;}
 .dv-guru2 {padding-bottom: 30px;padding-top: 30px;height: auto;text-align: center;}
-.dv-asrm1 {padding-top: 30px;padding-bottom: 30px;height: auto;text-align: center;}
+.dv-asrm1 {height: 400px; padding-top: 30px;padding-bottom: 30px;text-align: center;}
 .dv-asrm2 {border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 30px;padding-right: 15px;background: rgb(0 0 0 / 47%);height: auto;color: white;}
-.dv-mnge1 {border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 60px;background: rgb(0 0 0 / 47%);height: auto;color: white;}
+.dv-mnge1 {border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 30px;background: rgb(0 0 0 / 47%);height: auto;color: white;}
 .dv-mnge2 {padding-bottom: 30px;padding-top: 30px;height: auto;text-align: center;}
 .after p {color: white;padding-left: 60px;padding-top: 350px;font-size: 30px;
     font-weight: bold;font-family: revert;}
@@ -21,7 +22,7 @@
      border-radius: 5px; padding-bottom: 30px;padding-top: 30px;padding-left: 30px;padding-right: 15px;height: auto;color: white; }
 .notice ul { list-style-type: none;}
 .notice p{  font-size: 20px; font-weight: bold;}
-.cntct { width: 350px;}
+
 .cntct h5{width: 100px;border-bottom: 1px solid white; padding: 5px; margin-bottom: 15px}
 .donat{margin-top: 40px;}
 .donat h5 {width: 350px;border-bottom: 1px solid white; padding: 5px; margin-bottom: 15px}
@@ -35,3 +36,24 @@
     border: 2px solid #433f3f;
     border-radius: 10px;
 }
+ .quote span {float: right;
+    margin-right: 40px;margin-bottom: 10px;} 
+ .quote p{margin-bottom: -5px;}
+#carouselExampleControls {margin-right: 10px}
+#carouselExampleControls img{border-radius: 7px;}
+.dv-hari2-main{font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    width: 190px}
+.dv-guru1-main{font-size: 17px;
+        font-weight: 500;
+        border-bottom: 2px solid white;
+        width: 195px}
+@media (max-width:600px){
+    .quote p {padding-left: 0px;
+        padding-right: 0px;}
+    .dv-msg p{padding-left: 0px;
+            padding-right: 0px;}
+    .dv-asrm1{height: 250px;}
+}
+@media (max-width:1200px){ .after p {display: none} }
