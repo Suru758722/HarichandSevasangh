@@ -1,7 +1,7 @@
 .bg-light {background-color: #ffffff !important}
 .bg-light .nav-link { color: #dc3545; }
 .container-fluid  .logo{color: #dc3545;padding-left: 70px; font-size: 25px;font-weight: bold;}
-.bg-light .nav-item a {position: fixed;
+.bg-light .nav-item a {position: absolute;
     padding-top: 0px;cursor: pointer;margin-bottom: 0px;} 
     .link2 {margin-left: 90px !important;}
 #navbarSupportedContent {margin-left: 70px;     margin-bottom: 15px}
